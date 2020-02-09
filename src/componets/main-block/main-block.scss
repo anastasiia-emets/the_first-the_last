@@ -1,0 +1,126 @@
+.main-block {
+  width: 100%;
+  margin: 0 auto;
+    padding: 20px;
+}
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  &__logo {
+    font-family: TT Travels;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: -1px;
+    color: #000000;
+    margin-left: 47px;
+    margin-top: 40px;
+  }
+  &__nav {
+    display: flex;
+    flex-direction: column;
+    margin-right: 48px;
+    margin-top: 43px;
+
+    &-item {
+      margin-bottom: 10px;
+      font-family: TT Travels;
+      font-weight: 300;
+      font-size: 11px;
+      line-height: 13px;
+      letter-spacing: 0.02em;
+      color: #000000;
+      text-align: right;
+      text-decoration: none;
+      cursor: pointer;
+    }
+  }
+}
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  &__line {
+    position: absolute;
+    top: 30px;
+  }
+  &__wrapp-first-img {
+    margin: 0 10px;
+    width: 359px;
+    height: 530px;
+    cursor: url(../../images/circle.svg), auto;
+  }
+  &__photo-first {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: rotate(1.5deg);
+  }
+  &__wrapper-img{
+    display:flex;
+  }
+  &__wrapp-second-img {
+    display: block !important;
+    position: relative !important;
+    top: 95px !important;
+    width: 238px;
+    cursor: url(../../images/circle.svg), auto;
+    height: 226px;
+  }
+  &__photo-second {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: rotate(1.1deg);
+  }
+  &__wrapp-third-img {
+    display: block !important;
+    position: relative !important;
+    top: 315px !important;
+    left: -58px !important;
+    width: 234px;
+    cursor: url(../../images/circle.svg), auto;
+    height: 162px;
+  }
+  &__photo-third {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: rotate(2.03deg);
+  }
+
+}
+#shape {
+  fill: none;
+  stroke: black;
+  stroke-width: 5;
+  transition: all 10s ease-out;
+}
+.footer {
+    position: absolute;
+    bottom: 30px;
+    display: flex;
+    align-items: center;
+
+    margin-left:48px;
+  &__text {
+    font-family: TT Travels;
+    font-size: 11px;
+    line-height: 13px;
+    display: flex;
+    letter-spacing: 0.02em;
+    color: #000000;
+ 
+    text-decoration: none;
+  }
+  &__line {
+    width: 56px;
+    height: 1px;
+    background: #393939;
+    opacity: 0.24;
+    margin:0px 8px;
+  }
+}
