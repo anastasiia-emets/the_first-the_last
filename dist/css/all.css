@@ -83,7 +83,7 @@
   margin: 0 10px;
   width: 359px;
   height: 530px;
-  cursor: url(../../images/circle.svg), auto;
+  cursor: url(../images/circle.svg), auto;
 }
 
 .main__photo-first {
@@ -91,6 +91,7 @@
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  cursor: url(../images/circle.svg), auto;
   -webkit-transform: rotate(1.5deg);
           transform: rotate(1.5deg);
 }
@@ -99,15 +100,22 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: absolute;
+  cursor: url(../images/circle.svg), auto;
 }
 
 .main__wrapp-second-img {
   display: block !important;
   position: relative !important;
   top: 95px !important;
+  left: -300px !important;
   width: 238px;
   cursor: url(../images/circle.svg), auto;
   height: 226px;
+}
+
+.main__wrapp-second-img:hover {
+  cursor: url(../images/circle.svg), auto;
 }
 
 .main__photo-second {
@@ -115,6 +123,7 @@
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  cursor: url(../images/circle.svg), auto;
   -webkit-transform: rotate(1.1deg);
           transform: rotate(1.1deg);
 }
@@ -122,8 +131,8 @@
 .main__wrapp-third-img {
   display: block !important;
   position: relative !important;
-  top: 315px !important;
-  left: -58px !important;
+  top: 305px !important;
+  left: 200px !important;
   width: 234px;
   cursor: url(../images/circle.svg), auto;
   height: 162px;
@@ -140,8 +149,8 @@
 
 #shape {
   fill: none;
-  stroke: black;
-  stroke-width: 5;
+  stroke: #2828bd;
+  stroke-width: 1;
   -webkit-transition: all 10s ease-out;
   transition: all 10s ease-out;
 }
@@ -322,19 +331,6 @@ body {
 
 .swiper-slide-active .slide-item {
   color: maroon;
-}
-
-#banner {
-  overflow: hidden;
-  position: relative;
-  z-index: 20;
-}
-
-#banner img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 5;
 }
 
 .show {
