@@ -1,0 +1,347 @@
+@font-face {
+  font-family: 'Schnyder Cond XL Demi';
+  src: url("fonts/Schnyder_X_Condensed/Schnyder_X_Cond_L_Demi.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'TT Travels';
+  src: url("fonts/TT_Travel/TTTravels-Light.ttf") format("opentype");
+}
+
+.main-block {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__logo {
+  font-family: TT Travels;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: -1px;
+  color: #000000;
+  margin-left: 47px;
+  margin-top: 40px;
+}
+
+.header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 48px;
+  margin-top: 43px;
+}
+
+.header__nav-item {
+  margin-bottom: 10px;
+  font-family: TT Travels;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: 0.02em;
+  color: #000000;
+  text-align: right;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.main {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main__line {
+  position: absolute;
+  top: 30px;
+}
+
+.main__wrapp-first-img {
+  margin: 0 10px;
+  width: 359px;
+  height: 530px;
+  cursor: url(../../images/circle.svg), auto;
+}
+
+.main__photo-first {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transform: rotate(1.5deg);
+          transform: rotate(1.5deg);
+}
+
+.main__wrapper-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main__wrapp-second-img {
+  display: block !important;
+  position: relative !important;
+  top: 95px !important;
+  width: 238px;
+  cursor: url(../images/circle.svg), auto;
+  height: 226px;
+}
+
+.main__photo-second {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transform: rotate(1.1deg);
+          transform: rotate(1.1deg);
+}
+
+.main__wrapp-third-img {
+  display: block !important;
+  position: relative !important;
+  top: 315px !important;
+  left: -58px !important;
+  width: 234px;
+  cursor: url(../images/circle.svg), auto;
+  height: 162px;
+}
+
+.main__photo-third {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transform: rotate(2.03deg);
+          transform: rotate(2.03deg);
+}
+
+#shape {
+  fill: none;
+  stroke: black;
+  stroke-width: 5;
+  -webkit-transition: all 10s ease-out;
+  transition: all 10s ease-out;
+}
+
+.footer {
+  position: absolute;
+  bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 48px;
+}
+
+.footer__text {
+  font-family: TT Travels;
+  font-size: 11px;
+  line-height: 13px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  letter-spacing: 0.02em;
+  color: #000000;
+  text-decoration: none;
+}
+
+.footer__line {
+  width: 56px;
+  height: 1px;
+  background: #393939;
+  opacity: 0.24;
+  margin: 0px 8px;
+}
+
+@media (min-width: 310px) and (max-width: 900px) {
+  .header {
+    width: 100%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .header__link {
+    display: none;
+  }
+  .greetings__forms {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .contacts__info {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  .contacts__info_email {
+    margin: 0 auto !important;
+  }
+  .contacts__info_phone {
+    margin: 0 auto !important;
+  }
+  .invitation__header1,
+  .invitation__header2 {
+    font-size: 30px !important;
+    text-align: center !important;
+  }
+  .invitation__header1 {
+    margin-top: 140px !important;
+  }
+  .advantages__header {
+    font-size: 36px !important;
+    text-align: center !important;
+    margin-top: 120px !important;
+  }
+  .invitation__description {
+    text-align: center !important;
+    padding: 20px !important;
+    margin-bottom: 100px !important;
+    width: 60% !important;
+  }
+  .invitation {
+    height: auto !important;
+  }
+  .greetings__header {
+    font-size: 30px !important;
+    padding: 40px !important;
+    text-align: center !important;
+  }
+  .contacts__description {
+    text-align: center !important;
+    padding: 20px !important;
+  }
+  .advantages__header {
+    font-size: 23px !important;
+  }
+  .greetings__input_name {
+    width: 90%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .slider-wrapp {
+    padding: 20px !important;
+  }
+  .greetings__input {
+    width: 100%;
+    margin-bottom: 2%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    margin-left: 20px !important;
+  }
+  .greetings__input_email {
+    margin-left: 0px !important;
+  }
+  .greetings__forms {
+    width: 90%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .slick-prev:before, .slick-next:before {
+    display: none;
+  }
+}
+
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.swiper-container {
+  width: 100%;
+  min-height: 500px;
+}
+
+.swiper-container:hover {
+  cursor: url("../img/circle.png"), auto;
+}
+
+.swiper-slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.slide-item {
+  font-family: Schnyder Cond XL Demi;
+  font-size: 9.6em;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  color: white;
+  text-shadow: -1px 0 maroon, 0 1px maroon, 1px 0 maroon, 0 -1px maroon;
+}
+
+.text-mouse {
+  position: absolute;
+  display: none;
+  font-family: TT Travels;
+  font-size: 1.1em;
+  line-height: 10px;
+  letter-spacing: 0.02em;
+  color: black;
+  z-index: 30;
+}
+
+.swiper-slide-active .slide-item {
+  color: maroon;
+}
+
+#banner {
+  overflow: hidden;
+  position: relative;
+  z-index: 20;
+}
+
+#banner img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
+
+.show {
+  display: block;
+}
+
+.change-slide {
+  -webkit-animation: opacity 300ms ease-in-out;
+          animation: opacity 300ms ease-in-out;
+}

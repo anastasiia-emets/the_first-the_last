@@ -1,0 +1,91 @@
+@media (min-width: 310px) and (max-width: 900px) {
+  .header {
+    width: 100%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .header__link {
+    display: none;
+  }
+  .greetings__forms {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .contacts__info {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  .contacts__info_email {
+    margin: 0 auto !important;
+  }
+  .contacts__info_phone {
+    margin: 0 auto !important;
+  }
+  .invitation__header1,
+  .invitation__header2 {
+    font-size: 30px !important;
+    text-align: center !important;
+  }
+  .invitation__header1 {
+    margin-top: 140px !important;
+  }
+  .advantages__header {
+    font-size: 36px !important;
+    text-align: center !important;
+    margin-top: 120px !important;
+  }
+  .invitation__description {
+    text-align: center !important;
+    padding: 20px !important;
+    margin-bottom: 100px !important;
+    width: 60% !important;
+  }
+  .invitation {
+    height: auto !important;
+  }
+  .greetings__header {
+    font-size: 30px !important;
+    padding: 40px !important;
+    text-align: center !important;
+  }
+  .contacts__description {
+    text-align: center !important;
+    padding: 20px !important;
+  }
+  .advantages__header {
+    font-size: 23px !important;
+  }
+  .greetings__input_name {
+    width: 90%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .slider-wrapp {
+    padding: 20px !important;
+  }
+  .greetings__input {
+    width: 100%;
+    margin-bottom: 2%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    margin-left: 20px !important;
+  }
+  .greetings__input_email {
+    margin-left: 0px !important;
+  }
+  .greetings__forms {
+    width: 90%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .slick-prev:before, .slick-next:before {
+    display: none;
+  }
+}
