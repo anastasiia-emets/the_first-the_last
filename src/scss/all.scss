@@ -11,14 +11,24 @@ body {
   box-sizing: border-box;
   overflow-x: hidden;
 }
+#checkbox {
+  display: none;
+}
 
-// SWIPER SLIDER
+// SWIPER SLIDERsli
 .swiper-container {
   width: 100%;
   min-height: 500px;
   &:hover {
-    cursor: url("./../img/circle.png"), auto;
+    cursor: url("../../images/circle.svg"), auto;
   }
+}
+.nav-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  z-index: 5;
 }
 
 .swiper-slide {
@@ -29,10 +39,12 @@ body {
 
 .slide-item {
   font-family: Schnyder Cond XL Demi;
-  font-size: 9.6em;
   letter-spacing: 10px;
   text-transform: uppercase;
   color: white;
+  font-family: Schnyder Cond XL Demi;
+  font-size: 100px;
+  line-height: 86%;
   text-shadow: -1px 0 maroon, 0 1px maroon, 1px 0 maroon, 0 -1px maroon;
 }
 .text-mouse {

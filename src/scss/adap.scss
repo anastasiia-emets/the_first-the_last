@@ -1,107 +1,126 @@
+@media only screen and (min-width: 1440px) and (min-height: 862px) {
+    .main__wrapp-second-img {
+        width: 238px;
+        height: 331px;
+    }
+    .main__wrapp-first-img {
+        width: 476px;
+        height: 702px;
+    }
+    .main__wrapp-third-img {
+        width: 345px;
+        height: 238px;
+    }
+    .slide-item {
+        font-size: 15px;
+    }
+    .main__line {
+        top: 10px;
+    }
+}
 
-@media (min-width: 310px) and (max-width: 900px) {
-	.header{
-        width: 100%;
-        flex-wrap: wrap;
-        &__link{
-            display: none;
-        }
+@media only screen and (max-width: 850px) {
+    .main__wrapp-first-img {
+        width: 270px;
     }
-	.greetings__forms{
-        flex-wrap: wrap;
+    .main__wrapp-second-img {
+        width: 120px;
+        height: 185px
     }
-    .contacts__info{
-        flex-wrap: wrap;
-       flex-direction: column !important;
-    
+    .main__wrapp-third-img {
+        width: 140px;
+        left: -75px!important;
     }
-    .contacts__info_email{
+    .wrapper-img {
+        top: 125px;
+    }
+    .slide-item {
+        font-size:12px;
+    }
+}
+
+@media only screen and (max-width: 555px) {
+    .wrapper-menu {
+        z-index: 10;
+    }
+    .nav-menu {
+        display: none;
+    }
+    .menu-line {
+        width: 20px;
+        height: 1px;
+        background-color:gray;
+    }
+
+    .topnav {
+        overflow: hidden;
+        position: relative;
+      }
+      
+      /* Hide the links inside the navigation menu (except for logo/home) */
+      .topnav #myLinks {
+        display: none;
+      }
+      
+      /* Style navigation menu links */
+      .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+        cursor:pointer;
+      }
+      
+      
+      
+      /* Add a grey background color on mouse-over */
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+
+    .burger-menu {
+        display: flex;
+        flex-direction: column;
+        margin-top: -12px;
      
-        margin:  0 auto !important;
+    }
+    .burger-menu div:first-child {
+        margin-bottom: 5px;
+    }
+    .main__wrapp-first-img {
+        width: 273px;
+        height: 403px;
+        transform: rotate(1.5deg)!important;
+    }
+    .main__wrapp-second-img {
+        display: none!important;
+    }
+    .main__wrapp-third-img {
+        display: none!important;
+    }
+    .slide-item {
+        font-size: 40px !important;
+    }
+    .main__line {
+        max-width: 392px;
+        max-height: 493px;
+    }
+}
 
+@media only screen and (max-width: 400px) {
+    .main-block {
+        padding: 20px 0;
     }
-    .contacts__info_phone{
-   
-        margin:  0 auto !important;
-
+    .main__wrapp-first-img {
+        width: 249.67px;
+        height: 368.56px;
     }
-    .invitation__header1,
-    .invitation__header2{
-        font-size:30px !important;
-        text-align: center !important;
-        
-
+    .slide-item {
+        font-size: 20px !important;
     }
-    .invitation__header1{
-        margin-top:140px !important;
-
+    .main__line {
+        width: 300px;
     }
-    
-  
-    .advantages__header{
-        font-size: 36px !important;
-        text-align: center !important;
-        margin-top:120px !important;
-   
-    }
-    .invitation__description{
-        text-align: center !important;
-        padding: 20px !important;
-        margin-bottom: 100px !important;
-        width: 60% !important;
-
-    }
-    .invitation{
-        height: auto !important;
-    }
-    .greetings__header{
-        font-size: 30px !important;
-        padding: 40px !important;  
-        text-align: center !important;
-        
-    }
-   
-    .contacts__description{
-      
-        text-align: center !important;
-        padding: 20px !important;
-    }
-   
-    .advantages__header{
-        font-size: 23px !important;
-    }
-   
-    .greetings__input_name{
-        width: 90%;
-		flex-wrap: wrap;
-       
-    }
-    .slider-wrapp{
-        padding: 20px !important;
-      
-    }
-    
-    .greetings__input{
-        width: 100%;
-		margin-bottom: 2%;
-        flex-wrap: wrap;
-       justify-content:center !important;
-       margin-left:20px !important;
-    }
-    .greetings__input_email{
-        margin-left:0px !important;
-    }
-    .greetings__forms{
-        width: 90%;
-		flex-wrap: wrap;
-       
-    }
-    .slick-prev:before, .slick-next:before {
-        display:none;
-    }
-    
-  
- 
-    
-   
 }

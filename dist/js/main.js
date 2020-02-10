@@ -1,7 +1,3 @@
-var shape = document.getElementById('shape');
-setTimeout(function () {
-    shape.setAttribute('stroke-dashoffset', 2);
-}, 5);
 
 
 var swipp = {
@@ -46,3 +42,18 @@ var parallaxInstance = new Parallax(scene, {
 });
 parallaxInstance.friction(0.8, 0.8);
 parallaxInstance.scalar(8, 8);
+
+
+var shape = document.getElementById('shape');
+setTimeout(function () {
+  shape.setAttribute('stroke-dashoffset', 50);
+}, 0);
+
+function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
